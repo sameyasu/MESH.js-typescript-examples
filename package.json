@@ -1,0 +1,19 @@
+{
+  "name": "mesh.js-typescript-examples",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sameyasu",
+  "license": "MIT",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "typescript": "3.7.5"
+  }
+}

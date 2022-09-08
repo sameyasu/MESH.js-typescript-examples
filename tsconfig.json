@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "strict": true,
+    "rootDirs": [
+        "src/",
+        "mesh.js/dist/"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

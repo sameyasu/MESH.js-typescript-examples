@@ -1,0 +1,3 @@
+[submodule "mesh.js"]
+	path = mesh.js
+	url = git@github.com:MESHprj/MESH.js.git
