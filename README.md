@@ -20,10 +20,10 @@ npm run build
 
 - Button Block
 ```
-node dist/src/example_button.js
+node dist/example/button.js
 ```
 
 - LED Block
 ```
-node dist/src/example_led.js
+node dist/example/led.js
 ```

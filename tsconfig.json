@@ -5,7 +5,7 @@
     "outDir": "./dist/",
     "strict": true,
     "rootDirs": [
-        "src/",
+        "example/",
         "mesh.js/dist/"
     ],
     "esModuleInterop": true,
