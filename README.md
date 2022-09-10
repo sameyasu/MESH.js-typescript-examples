@@ -27,3 +27,13 @@ node dist/example/button.js
 ```
 node dist/example/led.js
 ```
+
+- TempHumid Block
+```
+node dist/example/tempHumid.js
+```
+
+- Brightness Block
+```
+node dist/example/brightness.js
+```
