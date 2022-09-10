@@ -4,7 +4,6 @@
   "description": "",
   "private": true,
   "scripts": {
-    "prebuild": "prettier -w example",
     "build": "tsc --build",
     "prettier": "prettier -w example",
     "lint": "eslint example",
