@@ -9,6 +9,7 @@ import { Base } from '../mesh.js/packages/block/Base'
 const meshBlock = new Base()
 const SERVICE_UUIDS = [meshBlock.UUIDS.SERVICE_ID]
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function handleError(err: any) {
   console.log(err)
 }
@@ -27,8 +28,8 @@ async function discoverCharacteristics(peripheral: noble.Peripheral) {
   return characteristics
 }
 
-function command2buf(command: any) {
-  return Buffer.from(command, 'hex')
+function command2buf(command: number[]) {
+  return Buffer.from(new Uint8Array(command))
 }
 
 async function sleep(milliseconds: number) {
